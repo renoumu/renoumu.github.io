@@ -27,7 +27,7 @@
 
 
 
-  <meta name="keywords" content="HTML5,localStorage,sessionStorage,getItem,setItem,笔记," />
+  <meta name="keywords" content="Html5,LocalStorage,SessionStorage,GetItem,SetItem," />
 
 
 
@@ -38,12 +38,12 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="Html5各标签的属性与应用">
+<meta name="description" content="H5本地储存笔记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="HTML5-4[本地储存]">
+<meta property="og:title" content="H5本地储存笔记">
 <meta property="og:url" content="http://yoursite.com/2016/06/23/html5_localStorage/index.html">
 <meta property="og:site_name" content="RenoU Blog">
-<meta property="og:description" content="Html5各标签的属性与应用">
+<meta property="og:description" content="H5本地储存笔记">
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/767d47f0gw1f55aanvsu1j20gl05kmyf.jpg">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/767d47f0gw1f55ah6n36yj20hw04kq48.jpg">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/767d47f0gw1f55aj5ycx8j20n70ae406.jpg">
@@ -52,10 +52,10 @@
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/767d47f0gw1f55dc0cya2j206l03nweg.jpg">
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/767d47f0gw1f55dvf5smwj208i03a3yj.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/767d47f0gw1f55e1koc37j20h703r0t6.jpg">
-<meta property="og:updated_time" content="2016-06-23T12:04:27.135Z">
+<meta property="og:updated_time" content="2016-08-19T10:32:52.778Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HTML5-4[本地储存]">
-<meta name="twitter:description" content="Html5各标签的属性与应用">
+<meta name="twitter:title" content="H5本地储存笔记">
+<meta name="twitter:description" content="H5本地储存笔记">
 <meta name="twitter:image" content="http://ww2.sinaimg.cn/large/767d47f0gw1f55aanvsu1j20gl05kmyf.jpg">
 
 
@@ -66,7 +66,7 @@
   };
 </script>
 
-  <title> HTML5-4[本地储存] | RenoU Blog </title>
+  <title> H5本地储存笔记 | RenoU Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -316,7 +316,7 @@
           
           
             
-              HTML5-4[本地储存]
+              H5本地储存笔记
             
           
         </h1>
@@ -335,8 +335,8 @@
             &nbsp; | &nbsp; 分类于
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/HTML5/" itemprop="url" rel="index">
-                  <span itemprop="name">HTML5</span>
+                <a href="/categories/学习笔记/" itemprop="url" rel="index">
+                  <span itemprop="name">学习笔记</span>
                 </a>
               </span>
 
@@ -359,89 +359,76 @@
       
 
       
-        <span itemprop="articleBody"><h4 id="概要："><a href="#概要：" class="headerlink" title="概要："></a>概要：</h4><ul>
-<li>[x] 本地储存历史；</li>
-<li>[x] HTML5本地储存；</li>
-<li>[ ] locaStorage   sessionStorage</li>
-</ul>
+        <span itemprop="articleBody"><h4 id="概要："><a href="#概要：" class="headerlink" title="概要："></a>概要：</h4><font color="#FF1493" size="2">本地储存历史</font><br><font color="#FF1493" size="2">HTML5本地储存</font><br><font color="#FF1493" size="2">locaStorage   sessionStorage</font>
+
 <h4 id="本地储存历史："><a href="#本地储存历史：" class="headerlink" title="本地储存历史："></a>本地储存历史：</h4><p><img src="http://ww2.sinaimg.cn/large/767d47f0gw1f55aanvsu1j20gl05kmyf.jpg" alt="image"></p>
-<h4 id="HTML5本地储存："><a href="#HTML5本地储存：" class="headerlink" title="HTML5本地储存："></a>HTML5本地储存：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- [√] 大小最小5MB，可以向用户申请更大的空间;</span><br><span class="line">- [√] 不会随HTTP请求发送给服务器;</span><br><span class="line">- [√] 非常容易操作;</span><br><span class="line">- [√] 移动端普及高;</span><br><span class="line">- [√] localStorage与sessionStorage两种;</span><br></pre></td></tr></table></figure>
+<h4 id="HTML5本地储存："><a href="#HTML5本地储存：" class="headerlink" title="HTML5本地储存："></a>HTML5本地储存：</h4><font color="#0099ff" size="2">大小最小5MB，可以向用户申请更大的空间</font><br><font color="#0099ff" size="2">不会随HTTP请求发送给服务器</font><br><font color="#0099ff" size="2">非常容易操作</font><br><font color="#0099ff" size="2">移动端普及高</font><br><font color="#0099ff" size="2">localStorage与sessionStorage两种</font>
+
 <h4 id="支持性检测："><a href="#支持性检测：" class="headerlink" title="支持性检测："></a>支持性检测：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.log(window.localStorage);</span><br></pre></td></tr></table></figure>
 <h4 id="支持度："><a href="#支持度：" class="headerlink" title="支持度："></a>支持度：</h4><p><img src="http://ww3.sinaimg.cn/large/767d47f0gw1f55ah6n36yj20hw04kq48.jpg" alt="image"></p>
-<h4 id="localStorage属性："><a href="#localStorage属性：" class="headerlink" title="localStorage属性："></a>localStorage属性：</h4><ul>
-<li>[x] localStorage为永久性保存数据，不会随着浏览器的关闭而消失</li>
-<li>[x] 按域名进行存储，不会和其他域名冲突</li>
-<li>[x] 键值对存储：key/value<br><img src="http://ww3.sinaimg.cn/large/767d47f0gw1f55aj5ycx8j20n70ae406.jpg" alt="image"></li>
-</ul>
-<h4 id="setItem-key-value"><a href="#setItem-key-value" class="headerlink" title="setItem(key , value):"></a>setItem(key , value):</h4><ul>
-<li>[x] 保存或设置数据。如果key已经存在，则覆盖key对应的value，如果不存在则添加key与value。</li>
-</ul>
+<h4 id="localStorage属性："><a href="#localStorage属性：" class="headerlink" title="localStorage属性："></a>localStorage属性：</h4><font color="#0099ff" size="2">localStorage为永久性保存数据，不会随着浏览器的关闭而消失</font><br><font color="#0099ff" size="2">按域名进行存储，不会和其他域名冲突</font><br><font color="#0099ff" size="2">键值对存储：key/value</font>
+
+<p><img src="http://ww3.sinaimg.cn/large/767d47f0gw1f55aj5ycx8j20n70ae406.jpg" alt="image"></p>
+<h4 id="setItem-key-value"><a href="#setItem-key-value" class="headerlink" title="setItem(key , value):"></a>setItem(key , value):</h4><font color="#FF1493" size="2">保存或设置数据。如果key已经存在，则覆盖key对应的value，如果不存在则添加key与value</font>
+
 <h5 id="例子："><a href="#例子：" class="headerlink" title="例子："></a>例子：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">        var oSetItem = window.localStorage;</span><br><span class="line">        oSetItem.setItem(&apos;name&apos;,&apos;小明&apos;);</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <h6 id="例子截图："><a href="#例子截图：" class="headerlink" title="例子截图："></a>例子截图：</h6><p><img src="http://ww3.sinaimg.cn/large/767d47f0gw1f55aqk0gpoj20i201pwel.jpg" alt="image"></p>
-<h4 id="getItem-key-："><a href="#getItem-key-：" class="headerlink" title="getItem(key)："></a>getItem(key)：</h4><ul>
-<li>[x] 获取key对应的value。如果key不存在则返回null;</li>
-</ul>
+<h4 id="getItem-key-："><a href="#getItem-key-：" class="headerlink" title="getItem(key)："></a>getItem(key)：</h4><font color="#FF1493" size="2">获取key对应的value。如果key不存在则返回null</font>
+
 <h5 id="例子：-1"><a href="#例子：-1" class="headerlink" title="例子："></a>例子：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">        var oSetItem = window.localStorage;</span><br><span class="line">        oSetItem.setItem(&apos;name&apos;,&apos;小明&apos;);</span><br><span class="line">        console.log(oSetItem.getItem(&apos;name&apos;));</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <h6 id="例子截图：-1"><a href="#例子截图：-1" class="headerlink" title="例子截图："></a>例子截图：</h6><p><img src="http://ww4.sinaimg.cn/large/767d47f0gw1f55avgxixpj207602ndfs.jpg" alt="image"></p>
-<ul>
-<li>[x] 如果将JS对象直接保存进localStorage，会变成[object Object],这时就需要把对象转换成JSON；</li>
-</ul>
+<font color="#0099ff" size="2">如果将JS对象直接保存进localStorage，会变成[object Object],这时就需要把对象转换成JSON</font>
+
 <h5 id="例子：-2"><a href="#例子：-2" class="headerlink" title="例子："></a>例子：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">        var oSetItem = window.localStorage;</span><br><span class="line">        var obj = &#123;</span><br><span class="line">            &apos;name&apos; : &apos;小明&apos;,</span><br><span class="line">            &apos;age&apos; : &apos;17&apos;</span><br><span class="line">        &#125;</span><br><span class="line">        oSetItem.setItem(&apos;user&apos;,obj)</span><br><span class="line">        console.log(oSetItem.getItem(&apos;user&apos;));</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <h6 id="例子截图：-2"><a href="#例子截图：-2" class="headerlink" title="例子截图："></a>例子截图：</h6><p><img src="http://ww2.sinaimg.cn/large/767d47f0gw1f55dc0cya2j206l03nweg.jpg" alt="image"></p>
 <hr>
-<h4 id="length"><a href="#length" class="headerlink" title="length:"></a>length:</h4><ul>
-<li>[x] 获取localStorage一共有多少条数据;</li>
-<li>[x] 配合key(index)方法可以实现遍历localStorage数据的方法<h4 id="key-index"><a href="#key-index" class="headerlink" title="key(index):"></a>key(index):</h4></li>
-<li>[x] 获取指定下标位置的key;</li>
-</ul>
+<h4 id="length"><a href="#length" class="headerlink" title="length:"></a>length:</h4><font color="#0099ff" size="2">获取localStorage一共有多少条数据</font><br><font color="#0099ff" size="2">配合key(index)方法可以实现遍历localStorage数据的方法</font><br><font color="#0099ff" size="2">key(index):</font><br><font color="#FF1493" size="2">获取指定下标位置的key</font>
+
 <h5 id="例子：-3"><a href="#例子：-3" class="headerlink" title="例子："></a>例子：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">        var oSetItem = window.localStorage;</span><br><span class="line">        oSetItem.setItem(&apos;name1&apos;,&apos;小明&apos;);</span><br><span class="line">        oSetItem.setItem(&apos;name2&apos;,&apos;小红&apos;);</span><br><span class="line">        for (var i = 0; i &lt; oSetItem.length; i++) &#123;</span><br><span class="line">            var key = oSetItem.key(i);</span><br><span class="line">            console.log(oSetItem.getItem(key));</span><br><span class="line">        &#125;</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <h6 id="例子截图：-3"><a href="#例子截图：-3" class="headerlink" title="例子截图："></a>例子截图：</h6><p><img src="http://ww2.sinaimg.cn/large/767d47f0gw1f55dvf5smwj208i03a3yj.jpg" alt="image"></p>
-<h4 id="clear"><a href="#clear" class="headerlink" title="clear();"></a>clear();</h4><ul>
-<li>[x] 将同域名下的所有localStorage数据都清空;</li>
-</ul>
+<h4 id="clear"><a href="#clear" class="headerlink" title="clear();"></a>clear();</h4><font color="#0099ff" size="2">将同域名下的所有localStorage数据都清空</font>
+
 <h5 id="例子：-4"><a href="#例子：-4" class="headerlink" title="例子："></a>例子：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">        var oSetItem = window.localStorage;</span><br><span class="line">        oSetItem.setItem(&apos;name1&apos;,&apos;小明&apos;);</span><br><span class="line">        oSetItem.setItem(&apos;name2&apos;,&apos;小红&apos;);</span><br><span class="line">        for (var i = 0; i &lt; oSetItem.length; i++) &#123;</span><br><span class="line">            var key = oSetItem.key(i);</span><br><span class="line">            console.log(oSetItem.getItem(key));</span><br><span class="line">        &#125;</span><br><span class="line">        oSetItem.clear();</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <h6 id="例子截图：-4"><a href="#例子截图：-4" class="headerlink" title="例子截图："></a>例子截图：</h6><p><img src="http://ww1.sinaimg.cn/large/767d47f0gw1f55e1koc37j20h703r0t6.jpg" alt="image"></p>
-<h4 id="storage事件："><a href="#storage事件：" class="headerlink" title="storage事件："></a>storage事件：</h4><ul>
-<li>[x] 当同源的localStorage或sessionStorage有更改以后，会触发这个事件。</li>
-</ul>
+<h4 id="storage事件："><a href="#storage事件：" class="headerlink" title="storage事件："></a>storage事件：</h4><font color="#FF1493" size="2">当同源的localStorage或sessionStorage有更改以后，会触发这个事件</font>
+
 <table>
 <thead>
 <tr>
-<th>Property</th>
-<th>Type</th>
-<th>Description</th>
+<th><font color="#0099ff" size="4">Property</font></th>
+<th><font color="#0099ff" size="4">Type</font></th>
+<th><font color="#0099ff" size="4">Description</font></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>key</td>
-<td>string</td>
-<td>被增加、修改、删除的数据的key</td>
+<td><font color="#FF1493" size="2">key</font></td>
+<td><font color="#FF1493" size="2">string</font></td>
+<td><font color="#FF1493" size="2">被增加、修改、删除的数据的key</font></td>
 </tr>
 <tr>
-<td>oldValue</td>
-<td>Any</td>
-<td>数据被修改之前的value、如果数据是被增加的则为null</td>
+<td><font color="#FF1493" size="2">oldValue</font></td>
+<td><font color="#FF1493" size="2">Any</font></td>
+<td><font color="#FF1493" size="2">数据被修改之前的value、如果数据是被增加的则为null</font></td>
 </tr>
 <tr>
-<td>newValue</td>
-<td>Any</td>
-<td>数据被修改之后的value</td>
+<td><font color="#FF1493" size="2">newValue</font></td>
+<td><font color="#FF1493" size="2">Any</font></td>
+<td><font color="#FF1493" size="2">数据被修改之后的value</font></td>
 </tr>
 <tr>
-<td>url</td>
-<td>string</td>
-<td>修改storage页面的url</td>
+<td><font color="#FF1493" size="2">url</font></td>
+<td><font color="#FF1493" size="2">string</font></td>
+<td><font color="#FF1493" size="2">修改storage页面的url</font></td>
 </tr>
 </tbody>
 </table>
 <hr>
-<h4 id="sessionStorage"><a href="#sessionStorage" class="headerlink" title="sessionStorage:"></a>sessionStorage:</h4><ul>
-<li>[x] sessionStorage为临时性保存数据，当页面关闭就会消失。其他一切与localStorage一样</li>
-<li>[x] sessionStorage不能跨页面访问，也不会触发跨标签页的storage事件。它只局限在当前的标签页里。</li>
-</ul>
+<h4 id="sessionStorage"><a href="#sessionStorage" class="headerlink" title="sessionStorage:"></a>sessionStorage:</h4><font color="#0099ff" size="2">sessionStorage为临时性保存数据，当页面关闭就会消失。其他一切与localStorage一样</font><br><font color="#0099ff" size="2">sessionStorage不能跨页面访问，也不会触发跨标签页的storage事件。它只局限在当前的标签页里。</font>
+
 <hr>
-<h3 id="课程总结："><a href="#课程总结：" class="headerlink" title="课程总结："></a>课程总结：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- [√] HTML5本地存储的两种方式是什么?</span><br><span class="line">- [√] 分别是localStorage 和 sessionStorage;</span><br><span class="line">- [√] localStorage设置数据的方法</span><br><span class="line">- [ ] 分别是setItem 和 getItem;</span><br></pre></td></tr></table></figure></span>
+<h3 id="课程总结："><a href="#课程总结：" class="headerlink" title="课程总结："></a>课程总结：</h3><font color="#FF1493" size="2">HTML5本地存储的两种方式是什么?</font><br><font color="#FF1493" size="2">分别是localStorage 和 sessionStorage;</font><br><font color="#FF1493" size="2">localStorage设置数据的方法</font><br><font color="#FF1493" size="2">分别是setItem 和 getItem;</font>
+</span>
       
     </div>
 
@@ -449,17 +436,15 @@
       
         <div class="post-tags">
           
-            <a href="/tags/HTML5/" rel="tag">#HTML5</a>
+            <a href="/tags/Html5/" rel="tag">#Html5</a>
           
-            <a href="/tags/localStorage/" rel="tag">#localStorage</a>
+            <a href="/tags/LocalStorage/" rel="tag">#LocalStorage</a>
           
-            <a href="/tags/sessionStorage/" rel="tag">#sessionStorage</a>
+            <a href="/tags/SessionStorage/" rel="tag">#SessionStorage</a>
           
-            <a href="/tags/getItem/" rel="tag">#getItem</a>
+            <a href="/tags/GetItem/" rel="tag">#GetItem</a>
           
-            <a href="/tags/setItem/" rel="tag">#setItem</a>
-          
-            <a href="/tags/笔记/" rel="tag">#笔记</a>
+            <a href="/tags/SetItem/" rel="tag">#SetItem</a>
           
         </div>
       
@@ -468,13 +453,13 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/08/18/rem/" rel="prev">我所了解的REM自适应布局</a>
+              <a href="/2016/08/18/rem/" rel="prev">浅谈我所了解的REM自适应布局</a>
             
           </div>
 
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/06/22/html5_video_audio/" rel="next">HTML5-3[音频与视频]</a>
+              <a href="/2016/06/22/html5_video_audio/" rel="next">H5的音频与视频</a>
             
           </div>
         </div>
@@ -696,7 +681,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">15</span>
+              <span class="site-state-item-count">17</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -731,7 +716,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#概要："><span class="nav-number">1.</span> <span class="nav-text">概要：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#本地储存历史："><span class="nav-number">2.</span> <span class="nav-text">本地储存历史：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML5本地储存："><span class="nav-number">3.</span> <span class="nav-text">HTML5本地储存：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#支持性检测："><span class="nav-number">4.</span> <span class="nav-text">支持性检测：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#支持度："><span class="nav-number">5.</span> <span class="nav-text">支持度：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#localStorage属性："><span class="nav-number">6.</span> <span class="nav-text">localStorage属性：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#setItem-key-value"><span class="nav-number">7.</span> <span class="nav-text">setItem(key , value):</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子："><span class="nav-number">7.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图："><span class="nav-number">7.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#getItem-key-："><span class="nav-number">8.</span> <span class="nav-text">getItem(key)：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-1"><span class="nav-number">8.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-1"><span class="nav-number">8.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-2"><span class="nav-number">8.2.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-2"><span class="nav-number">8.2.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#length"><span class="nav-number">9.</span> <span class="nav-text">length:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#key-index"><span class="nav-number">10.</span> <span class="nav-text">key(index):</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-3"><span class="nav-number">10.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-3"><span class="nav-number">10.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#clear"><span class="nav-number">11.</span> <span class="nav-text">clear();</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-4"><span class="nav-number">11.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-4"><span class="nav-number">11.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#storage事件："><span class="nav-number">12.</span> <span class="nav-text">storage事件：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#sessionStorage"><span class="nav-number">13.</span> <span class="nav-text">sessionStorage:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#课程总结："><span class="nav-number"></span> <span class="nav-text">课程总结：</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#概要："><span class="nav-number">1.</span> <span class="nav-text">概要：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#本地储存历史："><span class="nav-number">2.</span> <span class="nav-text">本地储存历史：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML5本地储存："><span class="nav-number">3.</span> <span class="nav-text">HTML5本地储存：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#支持性检测："><span class="nav-number">4.</span> <span class="nav-text">支持性检测：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#支持度："><span class="nav-number">5.</span> <span class="nav-text">支持度：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#localStorage属性："><span class="nav-number">6.</span> <span class="nav-text">localStorage属性：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#setItem-key-value"><span class="nav-number">7.</span> <span class="nav-text">setItem(key , value):</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子："><span class="nav-number">7.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图："><span class="nav-number">7.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#getItem-key-："><span class="nav-number">8.</span> <span class="nav-text">getItem(key)：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-1"><span class="nav-number">8.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-1"><span class="nav-number">8.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-2"><span class="nav-number">8.2.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-2"><span class="nav-number">8.2.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#length"><span class="nav-number">9.</span> <span class="nav-text">length:</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-3"><span class="nav-number">9.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-3"><span class="nav-number">9.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#clear"><span class="nav-number">10.</span> <span class="nav-text">clear();</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#例子：-4"><span class="nav-number">10.1.</span> <span class="nav-text">例子：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#例子截图：-4"><span class="nav-number">10.1.1.</span> <span class="nav-text">例子截图：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#storage事件："><span class="nav-number">11.</span> <span class="nav-text">storage事件：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#sessionStorage"><span class="nav-number">12.</span> <span class="nav-text">sessionStorage:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#课程总结："><span class="nav-number"></span> <span class="nav-text">课程总结：</span></a></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
